@@ -6,11 +6,21 @@ app.engine('md', dang);
 app.set('view engine', 'dang');
 
 app.get('/', function (req, res) {
-    res.render('hello.md', {
-        message: 'hello'
+    res.render('solar-system.md', {
+        star: 'Sun',
+        planets: [
+            'Mercury',
+            'Venus',
+            'Earth',
+            'Mars',
+            'Jupiter',
+            'Saturn',
+            'Uranus',
+            'Neptune',
+            'Pluto :('
+        ]
     });
 });
 
-app.listen(3000, function () {
-    console.log('Server started');
-});
+app.listen(3000);
+
