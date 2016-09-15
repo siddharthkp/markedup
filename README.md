@@ -6,4 +6,12 @@ markdown template engine
 
 ![screenshot](https://raw.githubusercontent.com/siddharthkp/dang/master/screenshot.png)
 
-
+List of features
+- [x] Variables
+- [x] Loops
+- [ ] Attributes
+- [ ] Conditionals
+- [ ] Doctype
+- [ ] Includes
+- [ ] Comments
+- [ ] Escape code
