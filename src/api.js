@@ -2,10 +2,9 @@ const fs = require('fs');
 const marked = require('marked');
 const transforms = require('./transforms');
 
-const api = (content, options, callback) => {
+const api = (content, options) => {
     for (let transform of transforms) content = transform(content, options);
-    let rendered = marked(content);
-    return callback(null, rendered);
+    return marked(content);
 };
 
 module.exports = api;

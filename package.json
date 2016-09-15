@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "node node_modules/ava/cli.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "express": "4.14.0",
     "marked": "0.3.6",
     "pug": "2.0.0-beta6"
+  },
+  "dependencies": {
+    "ava": "0.16.0"
   }
 }
