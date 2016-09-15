@@ -11,8 +11,9 @@ List of features
 - [x] Loops
 - [ ] Attributes
 - [x] Conditionals
-- [ ] Doctype
+- [ ] Nested variables
 - [ ] Includes
+- [ ] Attributes
 - [ ] Comments
 - [ ] Escape code
 - [ ] Syntax errors
