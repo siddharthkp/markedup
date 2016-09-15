@@ -1,4 +1,4 @@
-let variables = (content, data) => {
+let transform = (content, data) => {
     let re = /<(.*?)>/g;
     let matches = content.match(re);
 
@@ -24,4 +24,4 @@ let variables = (content, data) => {
     return content;
 };
 
-module.exports = variables;
+module.exports = transform;
