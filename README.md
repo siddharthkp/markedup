@@ -1,6 +1,8 @@
 # dang
 
 ![status:WIP](https://img.shields.io/badge/status-WIP-yellow.svg)
+[![Build
+Status](https://api.travis-ci.org/siddharthkp/dang.svg?branch=master)](https://travis-ci.org/siddharthkp/dang)
 
 ### supercharged markdown rendering engine
 
