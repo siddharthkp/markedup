@@ -4,8 +4,8 @@ let transform = (content, data) => {
 
     if (!matches) return content;
     for (let match of matches) {
-        match = match.replace('<endif>', '');
-        let parts = match.split('>');
+        let conditional = match.replace('<endif>', '');
+        let parts = conditional.split('>');
         parts.pop();
         for (let part of parts) {
             let condition = part.match(/<(.*?):/g)[0];

@@ -10,7 +10,7 @@ List of features
 - [x] Variables
 - [x] Loops
 - [ ] Attributes
-- [ ] Conditionals
+- [x] Conditionals
 - [ ] Doctype
 - [ ] Includes
 - [ ] Comments
