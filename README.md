@@ -22,7 +22,7 @@ List of features
 
 - [ ] Attributes
 - [x] Conditionals
- 
+
 ```html
 <if star = 'Sun':
     Our solar system
@@ -34,7 +34,7 @@ List of features
 
     Number of planets: 3
 >
-<else: Some random solar systems>
+<else: Some random solar system>
 <endif>
 ```
 
