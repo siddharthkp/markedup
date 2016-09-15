@@ -1,7 +1,7 @@
 ## name: <star>
 
 #### Planets
-<* planet in planets>
+<* planet.name in planets>
 
 <if star = 'Sun':
     Our solar system
