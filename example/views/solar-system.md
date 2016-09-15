@@ -1,5 +1,3 @@
-/* solar-system.md */
-
 ## name: <star>
 
 #### Planets
