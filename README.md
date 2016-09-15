@@ -15,3 +15,4 @@ List of features
 - [ ] Includes
 - [ ] Comments
 - [ ] Escape code
+- [ ] Syntax errors
