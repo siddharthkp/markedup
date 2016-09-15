@@ -1,3 +1,5 @@
+const getData = require('../helpers/get-data');
+
 let transform = (content, data) => {
     let re = /<if((.|\n)*?)<endif>/g;
     let matches = content.match(re);
@@ -25,7 +27,7 @@ let isConditionValid = (condition, data) => {
     let variable = condition.match(/if (.*?)=/g)[0].split('if ')[1].split('=')[0].trim();
     let value = condition.match(/=(.*?):/g)[0].split('=')[1].split(':')[0].trim();
     value = value.substring(1).substring(0, value.length - 2);
-    if (data[variable] == value) return true;
+    if (getData(data, variable) == value) return true;
 }
 
 module.exports = transform;

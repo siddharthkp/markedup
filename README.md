@@ -38,7 +38,14 @@ List of features
 <endif>
 ```
 
-- [ ] Nested variables
+- [x] Nested variables
+
+```html
+## name: <star.name>
+
+<* planet.name in planets>
+```
+
 - [ ] Includes
 - [ ] Attributes
 - [ ] Comments
