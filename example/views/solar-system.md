@@ -1,6 +1,6 @@
 /* solar-system.md */
 
-## name: ${star}
+## name: <star>
 
 #### Planets
-* ${planet in planets}
+<* planet in planets>
