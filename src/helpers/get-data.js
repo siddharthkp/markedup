@@ -3,6 +3,7 @@ let getData = (data, variable) => {
     let variableParts = variable.split('.');
     let value = data;
     for (let part of variableParts) {
+        if (!value) return null;
         value = value[part];
     }
     return value;
