@@ -9,10 +9,11 @@ markdown template engine
 List of features
 - [x] Variables
 - [x] Loops
-- [ ] Conditionals
+- [ ] Attributes
+- [x] Conditionals
 - [ ] Nested variables
-- [ ] Doctype
 - [ ] Includes
 - [ ] Attributes
 - [ ] Comments
 - [ ] Escape code
+- [ ] Syntax errors
