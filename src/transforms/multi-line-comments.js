@@ -6,7 +6,11 @@ let transform = (content, data) => {
     let matches = content.match(re);
 
     if (!matches) return content;
-    for (let match of matches) content = content.replace(match, '');
+    for (let match of matches) {
+        let htmlComments = match.replace('/*', '<!--');
+        htmlComments = htmlComments.replace('*/', '-->');
+        content = content.replace(match, htmlComments);
+    }
 
     return content;
 };

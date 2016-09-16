@@ -3,7 +3,7 @@ const dang = require('../src/api.js');
 
 test('single line', t => {
     let input = dang('// This is a single line comment');
-    let output = '';
+    let output = '<!-- This is a single line comment -->';
     t.deepEqual(input, output);
 });
 
@@ -15,7 +15,14 @@ test('multi line', t => {
         comment
         */
     `);
-    let output = '';
+    let output = dang(`
+        <!-- This is a
+        multi
+        line
+        comment
+        -->
+    `);
+
     t.deepEqual(input, output);
 });
 
