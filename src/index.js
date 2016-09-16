@@ -1,7 +1,6 @@
 const fs = require('fs');
 const marked = require('marked');
 const transforms = require('./transforms');
-const comments = require('./comments');
 
 const dang = (filePath, options, callback) => {
     fs.readFile(filePath, (err, content) => {
