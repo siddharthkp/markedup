@@ -48,17 +48,6 @@ List of features
 
 - [ ] Includes
 - [ ] Attributes
-- [x] Comments
-
-```js
-// This is a single line comment
-
-/* This is a
-   multi
-   line
-   comment
-*/
-```
-
+- [ ] Comments
 - [ ] Escape code
 - [ ] Syntax errors
