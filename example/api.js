@@ -1,5 +1,5 @@
 const fs = require('fs');
-const dang = require('../src/api.js');
+const markedup = require('../src/api.js');
 
 let data = {
     star: 'Sun',
@@ -18,7 +18,7 @@ let data = {
 
 fs.readFile('./views/solar-system.md', (err, content) => {
     content = content.toString();
-    let rendered = dang(content, data);
+    let rendered = markedup(content, data);
     console.log(rendered);
 });
 

@@ -2,7 +2,7 @@ const fs = require('fs');
 const marked = require('marked');
 const transforms = require('./transforms');
 
-const dang = (filePath, options, callback) => {
+const markedup = (filePath, options, callback) => {
     fs.readFile(filePath, (err, content) => {
         if (err) return callback(new Error(err));
         content = content.toString();
@@ -12,4 +12,4 @@ const dang = (filePath, options, callback) => {
     });
 };
 
-module.exports = dang;
+module.exports = markedup;

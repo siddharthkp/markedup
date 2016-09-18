@@ -1,5 +1,5 @@
 {
-  "name": "dang",
+  "name": "markedup",
   "version": "0.0.1",
   "description": "Markdown engine for express",
   "main": "index.js",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siddharthkp/dang.git"
+    "url": "git+https://github.com/siddharthkp/markedup.git"
   },
   "keywords": [
     "markdown",
-    "dang",
+    "markedup",
     "md",
     "express",
     "engine"
@@ -23,13 +23,12 @@
   "author": "siddharthkp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/siddharthkp/dang/issues"
+    "url": "https://github.com/siddharthkp/markedup/issues"
   },
-  "homepage": "https://github.com/siddharthkp/dang#readme",
+  "homepage": "https://github.com/siddharthkp/markedup#readme",
   "devDependencies": {
     "express": "4.14.0",
-    "marked": "0.3.6",
-    "pug": "2.0.0-beta6"
+    "marked": "0.3.6"
   },
   "dependencies": {
     "ava": "0.16.0",

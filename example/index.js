@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const dang = require('../src/index.js');
+const markedup = require('../src/index.js');
 
-app.engine('md', dang);
-app.set('view engine', 'dang');
+app.engine('md', markedup);
+app.set('view engine', 'markedup');
 app.use(express.static('static'));
 
 app.get('/', function (req, res) {
