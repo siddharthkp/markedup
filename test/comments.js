@@ -1,21 +1,21 @@
 const {test} = require('ava');
-const dang = require('../src/api.js');
+const markedup = require('../src/api.js');
 
 test('single line', t => {
-    let input = dang('// This is a single line comment');
+    let input = markedup('// This is a single line comment');
     let output = '<!-- This is a single line comment -->';
     t.deepEqual(input, output);
 });
 
 test('multi line', t => {
-    let input = dang(`
+    let input = markedup(`
         /* This is a
         multi
         line
         comment
         */
     `);
-    let output = dang(`
+    let output = markedup(`
         <!-- This is a
         multi
         line
