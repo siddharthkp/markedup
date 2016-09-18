@@ -4,6 +4,7 @@ const dang = require('../src/index.js');
 
 app.engine('md', dang);
 app.set('view engine', 'dang');
+app.use(express.static('static'));
 
 app.get('/', function (req, res) {
     let data = {
