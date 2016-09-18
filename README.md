@@ -1,10 +1,13 @@
 # dang
 
 ![status:WIP](https://img.shields.io/badge/status-WIP-yellow.svg)
+![status:WIP](https://img.shields.io/badge/status-Experiment-yellow.svg)
 [![Build
 Status](https://api.travis-ci.org/siddharthkp/dang.svg?branch=master)](https://travis-ci.org/siddharthkp/dang)
 
 ### supercharged markdown rendering engine
+
+-![screenshot](https://raw.githubusercontent.com/siddharthkp/dang/master/screenshot.png)
 
 List of features
 - [x] Variables
