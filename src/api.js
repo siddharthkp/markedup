@@ -1,4 +1,3 @@
-const fs = require('fs');
 const marked = require('marked');
 const transforms = require('./transforms');
 
