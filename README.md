@@ -7,7 +7,7 @@ Status](https://api.travis-ci.org/siddharthkp/dang.svg?branch=master)](https://t
 
 ### supercharged markdown rendering engine
 
--![screenshot](https://raw.githubusercontent.com/siddharthkp/dang/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/siddharthkp/dang/master/screenshot.png?v=2)
 
 List of features
 - [x] Variables
