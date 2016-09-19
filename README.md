@@ -20,7 +20,6 @@ List of features
 - [x] Loops
 
 ```html
-<* planet in planets>
 {{#planets}}
 * {{planet}}
 {{/planets}}
