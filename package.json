@@ -28,7 +28,7 @@
   "homepage": "https://github.com/siddharthkp/markedup#readme",
   "devDependencies": {
     "express": "4.14.0",
-    "marked": "0.3.6"
+    "marked": "0.3.9"
   },
   "dependencies": {
     "ava": "0.16.0",
